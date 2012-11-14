@@ -1,11 +1,11 @@
 Summary:	Compiler for the GObject type system
 Name:		vala
-Version:	0.18.0
+Version:	0.18.1
 Release:	1
 License:	LGPL v2.1
 Group:		Applications
 Source0:	http://download.gnome.org/sources/vala/0.18/%{name}-%{version}.tar.xz
-# Source0-md5:	06a95d6a6466b3583b59fe956cc75486
+# Source0-md5:	0d684cbddd3a7655fe54c030e4183dbd
 URL:		http://live.gnome.org/Vala
 BuildRequires:	glib-devel
 BuildRequires:	pkg-config
