@@ -1,20 +1,20 @@
 Summary:	Compiler for the GObject type system
 Name:		vala
-Version:	0.24.0
+Version:	0.26.0
 Release:	1
 License:	LGPL v2.1
 Group:		Libraries
-Source0:	http://download.gnome.org/sources/vala/0.24/%{name}-%{version}.tar.xz
-# Source0-md5:	beddeff9c06d3c278988b237da0e7401
+Source0:	http://download.gnome.org/sources/vala/0.26/%{name}-%{version}.tar.xz
+# Source0-md5:	a418f9ffacdf4ab1e2ecf52c7a73bfea
 URL:		http://live.gnome.org/Vala
-BuildRequires:	glib-devel >= 1:2.40.0
+BuildRequires:	glib-devel >= 1:2.42.0
 BuildRequires:	pkg-config
 Requires:	%{name}-libs = %{version}-%{release}
-Requires:	glib-devel >= 1:2.40.0
+Requires:	glib-devel >= 1:2.42.0
 Requires:	pkg-config
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		apiver	0.24
+%define		apiver	0.26
 
 %description
 Vala is a new programming language that aims to bring modern programming
